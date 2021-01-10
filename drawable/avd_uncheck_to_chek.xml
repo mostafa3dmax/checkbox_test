@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/checked">
+
+    <target
+        android:animation="@animator/anim_uncheck_to_check_border"
+        android:name="border"
+        />
+    <target
+        android:animation="@animator/anim_uncheck_to_check_fill_area"
+        android:name="group"
+        />
+</animated-vector>
